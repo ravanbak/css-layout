@@ -6,6 +6,7 @@ body {
     background: #f9faf8;
 }
 
+/* top level flex items */
 .header,
 .information,
 .quote,
@@ -13,7 +14,6 @@ body {
 .footer {
     flex: 1 1 auto;
     padding: 5% 10%;
-    /*border: solid rgb(247, 17, 17) 1px;*/
 }
 
 /* HEADER, FOOTER, HERO */
@@ -34,8 +34,7 @@ body {
 .header-line img {
     /* logo */
     background: transparent;
-    width: 100px;
-
+    height: 50px;
 }
 
 .header-links {
@@ -64,10 +63,12 @@ body {
 }
 
 .hero-text h1 {
+    color: #f9faf8;
     margin: 0;
 }
 
 .hero-text p {
+    color: #e5e7eb;
     margin-top: 0;
 }
 
@@ -131,7 +132,7 @@ button {
 
 .card img {
     max-width: 100%;
-    border: #1F2937 1px solid;
+    border: #1F2937 2px solid;
     border-radius: 10px;
 }
 
@@ -197,6 +198,6 @@ button {
 /* FOOTER */
 
 .footer {
-    padding: 10px;
+    padding: 8px;
     text-align: center;
 }
