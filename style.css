@@ -20,6 +20,7 @@ body {
 }
 
 .header, .footer {
+    padding-top: 10px;
     color: #f9faf8;
     background: #1F2937;
 }
@@ -29,6 +30,12 @@ body {
     justify-content: space-between;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header-line img {
+    background: transparent;
+    width: 130px;
+
 }
 
 .header-links {
@@ -43,13 +50,17 @@ body {
 
 .hero {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 80px 0px;
+    padding-top: 80px;
 }
 
 .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     padding-right: 40px;
+    max-width: 700px;
 }
 
 .hero-text h1 {
@@ -63,6 +74,7 @@ body {
 img {
     /*border: solid rgb(247, 17, 17) 1px;*/
     background: grey;
+    
 }
 
 button {
@@ -80,6 +92,16 @@ button {
     color: #f9faf8
 }
 
+.hero img {
+    border-radius: 12px;
+}
+
+#header-image-source {
+    margin: 0;
+    padding: 0;
+    font-size: 0.5em;
+    text-align: right;
+}
 /* INFORMATION SECTION */
 
 .information {
@@ -99,14 +121,26 @@ button {
 
 .card {
     margin: 10px;
-    border: solid rgb(247, 17, 17) 1px;
+    /*border: solid rgb(247, 17, 17) 1px;*/
 }
 
 .card img {
+    width: 220px;
     min-height: 100px;
     min-width: 100px;
-    border: #3882f6 1px solid;
+    border: #1F2937 1px solid;
     border-radius: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #1F2937;
+    font-size: 8px;
+}
+
+.source {
+    color: #1F2937;
+    font-size: 8px;
 }
 
 /* QUOTE SECTION */
