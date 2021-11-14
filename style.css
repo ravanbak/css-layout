@@ -163,14 +163,16 @@ button {
     margin-left: auto;
     margin-right: 80px;   
     margin-top: 0px;
+    padding-left: 40px;
     font-style: normal;
     font-weight: bold;
 }
 
 /* SIGNUP SECTION */
 
-.signup {
+.signup-inner {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background: #3882f6;
     color: white;
@@ -179,7 +181,7 @@ button {
     border-radius: 10px;
 }
 
-.signup .call-to-action {
+.call-to-action {
     font-weight: bold;
 }
 
@@ -187,8 +189,9 @@ button {
     flex-shrink: 0;
 }
 
-.signup-text p {
-    margin: 0;
+.signup-text {
+    margin-right: 4px;
+    margin-bottom: 6px;
 }
 
 .signup-button button {
